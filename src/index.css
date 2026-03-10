@@ -122,3 +122,31 @@ body{
   font-weight: bold;
   cursor: pointer;
 }
+
+
+.collection{
+  background-color: palevioletred;
+  
+  height: 150vh;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+
+.collection-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  gap: 10px;
+}
+
+
+.collection-heading span{
+
+  text-align: center;
+  color: gray;
+  width: 30%;
+}
