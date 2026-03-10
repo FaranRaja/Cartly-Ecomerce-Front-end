@@ -3,6 +3,7 @@ import Banner from './components/banner/Banner'
 import Nav from './components/nav/Nav'
 import Hero from './components/hero/Hero'
 import Collection from './components/collection/Collection'
+import Wedding from './components/wedding/Wedding'
 
 const App = () => {
   return (
@@ -17,6 +18,12 @@ const App = () => {
 
 
       <Collection />
+
+
+      <Wedding />
+
+
+
     </div>
   )
 }

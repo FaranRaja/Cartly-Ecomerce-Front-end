@@ -195,3 +195,52 @@ body{
   flex-wrap: wrap;
   
 }
+
+
+
+.wedding{
+  
+  height: 60vh;
+  margin-left: 200px;
+  margin-right: 200px;
+ 
+}
+
+
+.wedding-photo-cover{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+}
+
+.wedding-photo-cover h1{
+  font-size: 36px;
+  color: rgb(48, 46, 46);
+}
+
+.wedding-photo-cover span{
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.wedding-photo{
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+
+.details{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 20px;
+}
