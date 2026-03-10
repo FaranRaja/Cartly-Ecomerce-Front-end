@@ -1,5 +1,7 @@
 import React from 'react'
 import Heading from './Heading'
+import Products from './Products'
+
 
 const Collection = () => {
   return (
@@ -8,6 +10,8 @@ const Collection = () => {
 
 
       <Heading />
+
+      <Products />
     </div>
   )
 }
