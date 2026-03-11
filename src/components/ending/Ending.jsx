@@ -1,5 +1,6 @@
 import React from 'react'
 import LeftEnding from './LeftEnding'
+import RightEnding from './RightEnding'
 
 
 const Ending = () => {
@@ -10,7 +11,7 @@ const Ending = () => {
       <LeftEnding />
 
 
-      
+      <RightEnding />
     </div>
   )
 }

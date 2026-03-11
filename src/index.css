@@ -179,7 +179,15 @@ body{
 }
 
 .product:hover{
+
+
   opacity: 0.8;
+}
+
+.product:active{
+
+
+  opacity: 0.6;
 }
 
 
@@ -299,13 +307,22 @@ body{
   background-color: white;
   color: black;
   font-weight: bold;
+  cursor: pointer;
 
+}
+
+.type-details:active{
+  opacity: 0.83;
 }
 
 
 .ending{
 
   padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 100px;
 }
 
 
@@ -325,7 +342,7 @@ body{
 
 .left-e span{
   color: rgb(102, 96, 96);
- width: 20%;
+ width: 70%;
  font-weight: bold;
   
 }
@@ -354,4 +371,27 @@ input{
 
 .submit-form:active{
   opacity: 0.8;
+}
+
+
+.products-e{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+
+.items-e{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  color: gray;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.right-e{
+  display: flex;
+  
+  gap:150px;
 }
