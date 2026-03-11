@@ -395,3 +395,49 @@ input{
   
   gap:150px;
 }
+
+
+.footer{
+  height: 5vh;
+  width: 100%;
+  background-color: rgb(21, 21, 21);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  
+}
+
+.copyright{
+  display: flex;
+  align-items: center;
+  gap:5px;
+}
+
+.terms{
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+
+
+
+.credits{
+  height: 8vh;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+a{
+  color: rgb(25, 118, 210);
+  margin-left: 5px;
+  margin-right: 5px;
+}

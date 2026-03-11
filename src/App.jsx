@@ -7,6 +7,8 @@ import Wedding from './components/wedding/Wedding'
 import Types from './components/types/Types'
 import Ending from './components/ending/Ending'
 import Footer from './components/footer/Footer'
+import Credits from './components/credits/Credits'
+
 
 const App = () => {
   return (
@@ -35,6 +37,10 @@ const App = () => {
 
 
       <Footer />
+
+
+
+      <Credits />
 
 
     </div>
