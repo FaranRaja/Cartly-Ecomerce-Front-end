@@ -452,7 +452,7 @@ a{
 
 
   .title{
-    top:5%;
+    top:15%;
     
   }
 
@@ -461,6 +461,10 @@ a{
     margin-top: 20px;
   }
   
+
+  
+
+
 }
 
 
@@ -469,6 +473,36 @@ a{
   .categories{
     flex-direction: column;
     align-items: center;
+  }
+
+
+  .title{
+    top:5%;
+    
+  }
+
+
+  .hero-img{
+    width: 330px;
+  }
+
+  .left-hero{
+    text-align: center;
+    align-items: center;
+  }
+
+  .left-hero h2{
+    font-size: 36px;
+  }
+
+
+  .hero-content{
+
+    flex-direction: column;
+    
+    top: 102%;
+    left: 50%;
+    
   }
 
 }
