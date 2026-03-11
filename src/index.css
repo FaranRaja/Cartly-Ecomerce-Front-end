@@ -481,6 +481,7 @@ a{
     
   }
 
+  
 
   .hero-img{
     width: 330px;
@@ -520,4 +521,104 @@ a{
     white-space: nowrap;
   }
 
+
+
+  
+
+  .collection-heading h1{
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 40px;
+  }
+
+
+  .collection-heading span{
+    width: 350px;
+    margin-right: 40px;
+  }
+
+  .products{
+    flex-direction: column;
+    gap: 40px;
+    
+   justify-content: center;
+   align-items: center;
+    width: 300px;
+    margin-left: -270px;
+   
+  }
+
+  .product-img{
+    width: 300px;
+    height: 300px;
+    
+  }
+
+  .product h2{
+    white-space: nowrap;
+  }
+
+  .product span{
+    white-space: nowrap;
+  }
+
+
+  .main{
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .wedding{
+
+    margin-top: 1750px;
+    
+  }
+
+  .wedding-photo{
+    width: 330px;
+    height: 330px;
+    margin-left: -40px;
+  }
+
+  .wedding h1{
+    margin-left: -50px;
+  }
+
+
+  .wedding span{
+    width: 300px;
+    text-align: center;
+    margin-left: -50px;
+    margin-top: 10px;
+  }
+
+
+  .details{
+    margin-left: -50px;
+    white-space: nowrap;
+  }
+
+
+  .types{
+    flex-direction: column;
+  }
+
+  .type-img{
+    width: 330px;
+    height: 330px;
+    margin-left: -185px;
+  }
+
+  .type-content{
+    
+    top: 65%;
+    left: -150px;
+
+  }
+
+
+  .ending{
+    margin-top: 650px;
+  }
 }

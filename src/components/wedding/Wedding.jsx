@@ -6,7 +6,7 @@ const Wedding = () => {
 
         <div className="wedding-photo-cover">
             <img src="https://tulos-sqq5.vercel.app/wedding.webp" alt="" className='wedding-photo' />
-            <h1>Wear To Wedding</h1>
+            <h1>WEAR TO WEDDING</h1>
             <span>A symphony of exquisite designs foilored for your unforgettable moments</span>
             <button className='details'>SEE DETAILS</button>
         </div>
