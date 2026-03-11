@@ -441,3 +441,24 @@ a{
   margin-left: 5px;
   margin-right: 5px;
 }
+
+
+@media (max-width:1024px) {
+
+  .nav{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+  .title{
+    top:15%;
+    
+  }
+
+
+  .categories{
+    margin-top: 20px;
+  }
+  
+}
