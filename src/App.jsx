@@ -4,6 +4,7 @@ import Nav from './components/nav/Nav'
 import Hero from './components/hero/Hero'
 import Collection from './components/collection/Collection'
 import Wedding from './components/wedding/Wedding'
+import Types from './components/types/Types'
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
 
       <Wedding />
 
+
+
+      <Types />
 
 
     </div>
