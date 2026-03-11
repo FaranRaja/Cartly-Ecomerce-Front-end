@@ -489,10 +489,20 @@ a{
   .left-hero{
     text-align: center;
     align-items: center;
+    margin-bottom: -35px;
   }
 
   .left-hero h2{
     font-size: 36px;
+    width: 350px;
+    margin-bottom: -10px;
+    
+  }
+
+  .left-hero span{
+    
+    width: 250px;
+    
   }
 
 
@@ -500,9 +510,14 @@ a{
 
     flex-direction: column;
     
-    top: 102%;
+    top: 110%;
     left: 50%;
     
+  }
+
+  .shop{
+    padding: 10px 40px;
+    white-space: nowrap;
   }
 
 }
