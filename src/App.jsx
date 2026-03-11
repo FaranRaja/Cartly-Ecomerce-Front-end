@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero'
 import Collection from './components/collection/Collection'
 import Wedding from './components/wedding/Wedding'
 import Types from './components/types/Types'
+import Ending from './components/ending/Ending'
 
 const App = () => {
   return (
@@ -26,6 +27,9 @@ const App = () => {
 
 
       <Types />
+
+
+      <Ending />
 
 
     </div>
